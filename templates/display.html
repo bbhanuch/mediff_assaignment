@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Students Information</h2>
+<table border="1">
+    <tr>
+        <th>Roll Number</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Gender</th>
+    </tr>
+    {% for rec in records %}
+        <tr>
+        <td>{{ rec.student_roll_number}}</td>
+        <td>{{ rec.student_name }}</td>
+        <td>{{ rec.student_age }}</td>
+        <td>{{ rec.student_gender }}</td>
+        </tr>
+    {% endfor %}
+</table>
+<a href="/students">Click here to input another record</a>
+
+<form action="./delete" method="get">
+    <h2>Deleting Records Section</h2>
+    Enter the Roll number: <input type="text" name="roll_num">
+    <input type="submit" value="Delete">
+</form>
+
+<form action="./search" method="get">
+    <h2>Search Records Section</h2>
+    Enter the Roll number: <input type="text" name="roll_num">
+    <input type="submit" value="Search">
+</form>
+</body>
+</html>
