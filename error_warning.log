@@ -1,0 +1,8 @@
+00:00:36.449 GET_GENERAL , Timer Error Message Popup = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:
+00:00:46.939 GET_GENERAL , Timer Warning Info Message Popup = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:
+00:00:57.341 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed, warning
+00:00:57.407 GET_LIMITS , Mask Hits(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_EyeDiagram
+00:00:58.703 GET_LIMITS , Rise Time(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_RiseTime
+00:00:59.027 GET_LIMITS , Rising Edge Rate(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_RisingEdgeRate
+00:00:59.261 GET_LIMITS , Fall Time(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_FallTime
+00:00:59.441 GET_LIMITS , Falling Edge Rate(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_FallingEdgeRate

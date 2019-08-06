@@ -1,0 +1,758 @@
+00:00:34.778 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:34.779 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:34.780 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:34.781 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:34.820 LOG_UPDATE Initializing run time environment. This might take some time.
+00:00:34.840 EXEC_SEQ Sequencer Started for Device :Device Suite:Device Connector
+00:00:35.776 GET_APP_VERSION App Version: 10.2.3.3 
+00:00:35.776 GET_GLOBAL AppVersion = 10.2.3.3
+00:00:35.798 SET_EXEC_INFO PrimaryHeader = TekExpress USB2 Report
+00:00:35.800 SET_EXEC_INFO SecondaryHeader = Report for Device
+00:00:35.807 SET_SETUP_INFO Suite = Device
+00:00:35.817 SET_EXEC_INFO Date/Time = 2017-09-01 00:00:35
+00:00:35.819 SET_EXEC_INFO Acquisition Mode = Live
+00:00:35.841 LOG_UPDATE 09/01/17 00:00:35 : Getting Scope Details and Application Version
+00:00:35.863 GET_INST_ANALYZE , Real Time Scope = TekExpress.GeneralParameters+Resources , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:35.874 LOG_UPDATE 09/01/17 00:00:35 : Scope Model :DPO70804C
+00:00:35.907 GET_APP_VERSION App Version: 10.2.3.3 
+00:00:35.908 GET_GLOBAL AppVersion = 10.2.3.3
+00:00:35.911 GET_FW_VERSION Framework Version 4.1.0.28
+00:00:35.912 GET_GLOBAL FWVersion = 4.1.0.28
+00:00:35.915 SET_SETUP_INFO TekExpress USB2 = 10.2.3.3
+00:00:35.918 SET_SETUP_INFO FrameWork Version = 4.1.0.28
+00:00:35.920 GET_INST_ANALYZE , Real Time Scope = TekExpress.GeneralParameters+Resources , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:35.922 LOG_UPDATE 09/01/17 00:00:35 : DPO70804C ( GPIB8::1::INSTR )
+00:00:35.957 LOG_UPDATE 09/01/17 00:00:35 : Scope Address :  GPIB8::1::INSTR
+00:00:35.982 SET_SETUP_INFO Scope Model = DPO70804C
+00:00:35.984 LOG_UPDATE 09/01/17 00:00:35 : Scope Model : DPO70804C
+00:00:36.101 LOG_UPDATE 09/01/17 00:00:36 : fwVer :10.7.1 Build 8
+00:00:36.123 SET_SETUP_INFO Scope Firmware = 10.7.1 Build 8
+00:00:36.125 GET_GENERAL , Far End = Far End==>False , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.131 SET_EXEC_INFO Test Point = Near End
+00:00:36.133 GET_GENERAL , DUT Automation = DUT Automation==>False , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.137 SET_SETUP_INFO TekExpress USB2 = 10.2.3.3
+00:00:36.139 SET_SETUP_INFO FrameWork Version = 4.1.0.28
+00:00:36.142 SET_SETUP_INFO Scope Model = DPO70804C
+00:00:36.264 GET_GENERAL , Probe Type: DUT Signal Probing = Probe Type: DUT Signal Probing==>Both , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.267 GET_GENERAL , Qualifier = Qualifier==>CH4 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.274 SET_EXEC_INFO Probing = Single Ended & Differential
+00:00:36.277 GET_GENERAL , Data = Data==>CH1 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.340 GET_GENERAL , Data+ = Data+==>CH1 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.343 GET_GENERAL , Data- = Data-==>CH2 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.349 GET_GENERAL , On Failure Stop and Notify = On Failure Stop and Notify==>False , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.354 GET_GENERAL , Low Speed Bandwidth = Low Speed Bandwidth==>500 MHz , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.377 GET_GENERAL , Full Speed Bandwidth = Full Speed Bandwidth==>500 MHz , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.386 GET_GENERAL , High Speed Bandwidth = High Speed Bandwidth==>4 GHz , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.392 GET_GENERAL , RecordLength_LSSQ = RecordLength_LSSQ==>80 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.398 GET_GENERAL , RecordLength_FSSQ = RecordLength_FSSQ==>25 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.403 GET_GENERAL , RecordLength_HSSQ = RecordLength_HSSQ==>40 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.409 GET_GENERAL , RecordLength_Inrush = RecordLength_Inrush==>10 , Device:Device ==> Suite:Device Connector ==> Test:EL21_EL22_EL25
+00:00:36.448 POPUP MessageWithImage , Title = Full Speed Signal Quality ,Message = Make connections as shown in the schematic ,Icon = 1 ,Responses = OK ,AdditionalData = C:\Program Files (x86)\Tektronix\TekExpress\TekExpress USB2\Compliance Suites\USB2\Device\Device Connector\FullSpeedDeviceSchematic.png
+00:00:36.449 GET_GENERAL , Timer Error Message Popup = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:
+00:00:36.450 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:36.451 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:36.452 Entering showMessage(int _id, string _title, string _description, string[] _expectedResponses, ShowState _showAs, string _seqMsgData, bool getIntValue = true)
+00:00:36.453 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:36.454 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:38.863 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:38.864 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:38.868 POPUP  Waiting for Response for EE initiated popup
+00:00:38.870 POPUP_RESPONSE = "0" - Type:MessageWithImage ,Title:Full Speed Signal Quality ,Message:Make connections as shown in the schematic
+00:00:38.889 LOG_UPDATE 09/01/17 00:00:38 : Started Execution for FSSQ Signal Quality tests  
+00:00:38.914 GET_ANALYZE , Supported Probing = Supported Probing==>Single Ended , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:38.924 LOG_UPDATE 09/01/17 00:00:38 : Started Live Signal Mode...
+00:00:38.953 SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.955 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.956 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.957 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.958 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.959 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.961 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.963 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.964 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.965 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.966 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.967 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.968 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:38.969 ==>SET_STATUS_ACQUIRE FSSQ = In Progress..., Device:Device Connector ==> Suite:Device Connector
+00:00:39.011 LOG_UPDATE 09/01/17 00:00:39 : Performing scope settings for FSSQ
+00:00:46.372 LOG_UPDATE 09/01/17 00:00:46 : Started Live Signal Mode...
+00:00:46.859 LOG_UPDATE 09/01/17 00:00:46 : Scope Settings Done...
+00:00:46.912 LOG_UPDATE 09/01/17 00:00:46 : Configure HSET Tool to Send Signal..
+00:00:46.938 POPUP CustomButtonStrings , Title = Configure HSET Tool ,Message = For Full Speed Signals, on HSET Tool, click "Enumerate Bus" then send "LOOP DEVICE DESCRIPTOR" command. ,Icon = 4 ,Responses = OK ,AdditionalData = 
+00:00:46.939 GET_GENERAL , Timer Warning Info Message Popup = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:
+00:00:46.940 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:46.941 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:46.942 Entering showMessage(int _id, string _title, string _description, string[] _expectedResponses, ShowState _showAs, string _seqMsgData, bool getIntValue = true)
+00:00:46.943 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:46.944 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:49.080 WAIT_ACTIVE_MSG_BOX: Enter
+00:00:49.086 WAIT_ACTIVE_MSG_BOX: Exit
+00:00:49.098 POPUP  Waiting for Response for EE initiated popup
+00:00:49.118 POPUP_RESPONSE = "0" - Type:CustomButtonStrings ,Title:Configure HSET Tool ,Message:For Full Speed Signals, on HSET Tool, click "Enumerate Bus" then send "LOOP DEVICE DESCRIPTOR" command.
+00:00:51.281 LOG_UPDATE 09/01/17 00:00:51 : Saving Single Ended Dp waveform on CH1
+00:00:52.302 LOG_UPDATE 09/01/17 00:00:52 : Saving FSSQ waveform on CH1 : X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dp_NearEnd.wfm
+00:00:52.336 LOG_UPDATE 09/01/17 00:00:52 : Saving waveform operation completed...
+00:00:53.430 LOG_UPDATE 09/01/17 00:00:53 : Saving Single Ended Dn waveform on CH2
+00:00:54.456 LOG_UPDATE 09/01/17 00:00:54 : Saving FSSQ waveform on CH2 : X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dn_NearEnd.wfm
+00:00:54.489 LOG_UPDATE 09/01/17 00:00:54 : Saving waveform operation completed...
+00:00:56.016 LOG_UPDATE 09/01/17 00:00:56 : Signal Validation Passed For Full Speed Signal
+00:00:56.039 LOG_UPDATE 09/01/17 00:00:56 : Continue with execution...
+00:00:56.102 SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.104 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.105 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.107 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.108 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.109 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.110 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.111 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.112 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.113 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.114 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.115 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.116 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.117 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.146 SET_PROGRESS_ACQ FSSQ ,% = 100 , Device-100 ==> Suite-Device Connector ==> BEFORE_TOTAL % = 0 
+00:00:56.147 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EyeDiagram , Version: Speed
+00:00:56.148 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EOPWidth , Version: Speed
+00:00:56.149 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_SignalRate , Version: Speed
+00:00:56.150 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EdgeMonotonicity , Version: Speed
+00:00:56.151 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_CrossOver , Version: Speed
+00:00:56.152 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_ConsecutiveJitter , Version: Speed
+00:00:56.153 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_PairedJKJitter , Version: Speed
+00:00:56.154 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_PairedKJJitter , Version: Speed
+00:00:56.155 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_RisingEdgeRate , Version: Speed
+00:00:56.156 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_FallingEdgeRate , Version: Speed
+00:00:56.157 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EdgeRateMatch , Version: Speed
+00:00:56.158 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_RiseTime , Version: Speed
+00:00:56.159 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_FallTime , Version: Speed
+00:00:56.160 SET_PROGRESS_TOTAL_ACQUIRE 100
+00:00:56.181 SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.182 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.184 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.185 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.186 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.187 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.187 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.188 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.189 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.190 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.191 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.192 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.193 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.194 ==>SET_STATUS_ACQUIRE FSSQ = Completed, Device:Device Connector ==> Suite:Device Connector
+00:00:56.214 SET_PROGRESS_ACQ FSSQ ,% = 100 , Device-100 ==> Suite-Device Connector ==> BEFORE_TOTAL % = 100 
+00:00:56.215 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EyeDiagram , Version: Speed
+00:00:56.216 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EOPWidth , Version: Speed
+00:00:56.217 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_SignalRate , Version: Speed
+00:00:56.218 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EdgeMonotonicity , Version: Speed
+00:00:56.219 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_CrossOver , Version: Speed
+00:00:56.220 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_ConsecutiveJitter , Version: Speed
+00:00:56.220 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_PairedJKJitter , Version: Speed
+00:00:56.221 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_PairedKJJitter , Version: Speed
+00:00:56.222 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_RisingEdgeRate , Version: Speed
+00:00:56.222 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_FallingEdgeRate , Version: Speed
+00:00:56.223 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_EdgeRateMatch , Version: Speed
+00:00:56.224 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_RiseTime , Version: Speed
+00:00:56.225 ==>SET_PROGRESS_ACQ FSSQ of Test: FS_FallTime , Version: Speed
+00:00:56.588 LOG_UPDATE 09/01/17 00:00:56 : Signal Validation Passed For Full Speed Signal
+00:00:56.620 GET_LIMITS , Consecutive Jitter = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:56.654 GET_LIMITS , Consecutive Jitter(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:56.669 LOG_UPDATE 09/01/17 00:00:56 : Populating results for Max Consecutive Jitter
+00:00:56.696 SET_TEST_RESULT FS_ConsecutiveJitter , Value = 4293.897 ps , Device:Device ==> Suite:Device Connector 
+00:00:56.697 SET_TEST_RESULT FS_ConsecutiveJitter , Details = Max Consecutive Jitter , Device:Device ==> Suite:Device Connector 
+00:00:56.699 SET_TEST_RESULT FS_ConsecutiveJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:56.704 SET_TEST_RESULT FS_ConsecutiveJitter , High Limit = 40000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:56.705 SET_TEST_RESULT FS_ConsecutiveJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:56.707 SET_TEST_RESULT FS_ConsecutiveJitter , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:56.708 SET_TEST_RESULT FS_ConsecutiveJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:56.710 SET_TEST_RESULT FS_ConsecutiveJitter , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:56.711 SET_TEST_RESULT FS_ConsecutiveJitter , Margin = 35706.103 ps , Device:Device ==> Suite:Device Connector 
+00:00:56.712 SET_TEST_RESULT FS_ConsecutiveJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:56.714 SET_TEST_RESULT FS_ConsecutiveJitter , Comments = Passed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:56.741 SET_TEST_RESULT FS_ConsecutiveJitter , Image = X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dp_NearEnd.png^FSSQ_Dp_NearEnd waveform$X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_eye.png^Eye Diagram for Full Speed$X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_waveform.png^Waveform Plot for Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:56.744 SET_TEST_RESULT FS_ConsecutiveJitter , Plots = X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dp_NearEnd.wfm^X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dn_NearEnd.wfm^X:\USB2\Untitled Session\DUT001\20170901_000034^FSSQ , Device:Device ==> Suite:Device Connector 
+00:00:56.760 SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:56.762 ==>SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Pass 
+00:00:56.925 SET_PROGRESS_TEST FS_ConsecutiveJitter ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 0 
+00:00:56.926 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:56.927 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:56.928 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:56.929 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:56.930 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:56.931 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:56.932 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:56.933 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:56.934 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:56.935 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:56.936 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:56.937 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:56.938 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:56.939 SET_PROGRESS_TOTAL_ANALYZE 7
+00:00:56.959 SET_RUNTIME_STAMP 20170901_000034
+00:00:56.962 SET_TEST_RESULT FS_ConsecutiveJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:56.965 GET_STATUS_ANALYZE TestName:FS_ConsecutiveJitter ==> FSSQ_Status : Completed,
+00:00:56.996 GET_LIMITS , Consecutive Jitter = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:57.005 LOG_UPDATE 09/01/17 00:00:57 : Populating results for Min Consecutive Jitter
+00:00:57.029 SET_TEST_RESULT FS_ConsecutiveJitter , Value = -1071626.103 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.031 SET_TEST_RESULT FS_ConsecutiveJitter , Details = Min Consecutive Jitter , Device:Device ==> Suite:Device Connector 
+00:00:57.033 SET_TEST_RESULT FS_ConsecutiveJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:57.036 SET_TEST_RESULT FS_ConsecutiveJitter , High Limit = 2000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.038 SET_TEST_RESULT FS_ConsecutiveJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.039 SET_TEST_RESULT FS_ConsecutiveJitter , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.041 SET_TEST_RESULT FS_ConsecutiveJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.043 SET_TEST_RESULT FS_ConsecutiveJitter , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.045 SET_TEST_RESULT FS_ConsecutiveJitter , Margin = 1073626.103 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.047 SET_TEST_RESULT FS_ConsecutiveJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:57.048 SET_TEST_RESULT FS_ConsecutiveJitter , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.059 SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:57.061 ==>SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Pass 
+00:00:57.088 SET_RUNTIME_STAMP 20170901_000034
+00:00:57.090 SET_TEST_RESULT FS_ConsecutiveJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:57.091 GET_STATUS_ANALYZE TestName:FS_ConsecutiveJitter ==> FSSQ_Status : Completed,
+00:00:57.115 GET_LIMITS , Consecutive Jitter = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:57.121 GET_LIMITS , Consecutive Jitter(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_ConsecutiveJitter
+00:00:57.129 LOG_UPDATE 09/01/17 00:00:57 : Populating results for RMS Consecutive Jitter
+00:00:57.151 SET_TEST_RESULT FS_ConsecutiveJitter , Value = 524930.844 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.152 SET_TEST_RESULT FS_ConsecutiveJitter , Details = RMS Consecutive Jitter , Device:Device ==> Suite:Device Connector 
+00:00:57.154 SET_TEST_RESULT FS_ConsecutiveJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:57.157 SET_TEST_RESULT FS_ConsecutiveJitter , High Limit = 40000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.158 SET_TEST_RESULT FS_ConsecutiveJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.160 SET_TEST_RESULT FS_ConsecutiveJitter , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:57.161 SET_TEST_RESULT FS_ConsecutiveJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.162 SET_TEST_RESULT FS_ConsecutiveJitter , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:00:57.164 SET_TEST_RESULT FS_ConsecutiveJitter , Margin = -484930.844 ps , Device:Device ==> Suite:Device Connector 
+00:00:57.165 SET_TEST_RESULT FS_ConsecutiveJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:57.166 SET_TEST_RESULT FS_ConsecutiveJitter , Comments = Failed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:57.177 SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:00:57.178 ==>SET_TEST_RESULTS FS_ConsecutiveJitter , FINAL_STATUS = Fail 
+00:00:57.205 SET_RUNTIME_STAMP 20170901_000034
+00:00:57.207 SET_TEST_RESULT FS_ConsecutiveJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:57.208 GET_STATUS_ANALYZE TestName:FS_ConsecutiveJitter ==> FSSQ_Status : Completed,
+00:00:57.233 GET_LIMITS , Signal Rate = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_SignalRate
+00:00:57.244 GET_LIMITS , Signal Rate(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_SignalRate
+00:00:57.253 LOG_UPDATE 09/01/17 00:00:57 : Populating results for Signal Rate
+00:00:57.277 SET_TEST_RESULT FS_SignalRate , Value = 12.041 Mbps , Device:Device ==> Suite:Device Connector 
+00:00:57.279 SET_TEST_RESULT FS_SignalRate , Details = Signal Rate , Device:Device ==> Suite:Device Connector 
+00:00:57.281 SET_TEST_RESULT FS_SignalRate , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:57.284 SET_TEST_RESULT FS_SignalRate , High Limit = 12.150 Mbps , Device:Device ==> Suite:Device Connector 
+00:00:57.285 SET_TEST_RESULT FS_SignalRate , Low Limit = 11.850 Mbps , Device:Device ==> Suite:Device Connector 
+00:00:57.286 SET_TEST_RESULT FS_SignalRate , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.287 SET_TEST_RESULT FS_SignalRate , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.288 SET_TEST_RESULT FS_SignalRate , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.289 SET_TEST_RESULT FS_SignalRate , Margin = 0.191 Mbps & 0.109 Mbps , Device:Device ==> Suite:Device Connector 
+00:00:57.290 SET_TEST_RESULT FS_SignalRate , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:57.291 SET_TEST_RESULT FS_SignalRate , Comments = Passed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:57.302 SET_TEST_RESULTS FS_SignalRate , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:57.303 ==>SET_TEST_RESULTS FS_SignalRate , FINAL_STATUS = Pass 
+00:00:57.329 SET_PROGRESS_TEST FS_SignalRate ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 7 
+00:00:57.330 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:57.331 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:57.332 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:57.333 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:57.334 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:57.335 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:57.335 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:57.336 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:57.337 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:57.338 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:57.339 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:57.340 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:57.341 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed, warning
+00:00:57.342 SET_PROGRESS_TOTAL_ANALYZE 15
+00:00:57.363 SET_RUNTIME_STAMP 20170901_000034
+00:00:57.364 SET_TEST_RESULT FS_SignalRate , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:57.365 GET_STATUS_ANALYZE TestName:FS_SignalRate ==> FSSQ_Status : Completed,
+00:00:57.389 GET_LIMITS , Mask Hits = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_EyeDiagram
+00:00:57.407 GET_LIMITS , Mask Hits(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_EyeDiagram
+00:00:57.424 GET_LIMITS , Mask Hits = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_EyeDiagram
+00:00:57.434 LOG_UPDATE 09/01/17 00:00:57 : Populating results for Mask Hits
+00:00:57.456 SET_TEST_RESULT FS_EyeDiagram , Value = 408.000   , Device:Device ==> Suite:Device Connector 
+00:00:57.457 SET_TEST_RESULT FS_EyeDiagram , Details = Mask Hits , Device:Device ==> Suite:Device Connector 
+00:00:57.458 SET_TEST_RESULT FS_EyeDiagram , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:57.461 SET_TEST_RESULT FS_EyeDiagram , High Limit = 0.000   , Device:Device ==> Suite:Device Connector 
+00:00:57.461 SET_TEST_RESULT FS_EyeDiagram , Low Limit = 0.000   , Device:Device ==> Suite:Device Connector 
+00:00:57.463 SET_TEST_RESULT FS_EyeDiagram , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:57.465 SET_TEST_RESULT FS_EyeDiagram , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:57.466 SET_TEST_RESULT FS_EyeDiagram , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:00:57.466 SET_TEST_RESULT FS_EyeDiagram , Margin = 408.000   & -408.000   , Device:Device ==> Suite:Device Connector 
+00:00:57.467 SET_TEST_RESULT FS_EyeDiagram , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:57.468 SET_TEST_RESULT FS_EyeDiagram , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:57.470 SET_TEST_RESULT FS_EyeDiagram , Eye Diagram = X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dp_NearEnd.wfm^X:\USB2\Untitled Session\DUT001\20170901_000034\FSSQ_Dn_NearEnd.wfm^X:\USB2\Untitled Session\DUT001\20170901_000034^FSSQ , Device:Device ==> Suite:Device Connector 
+00:00:57.480 SET_TEST_RESULTS FS_EyeDiagram , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:00:57.481 ==>SET_TEST_RESULTS FS_EyeDiagram , FINAL_STATUS = Fail 
+00:00:58.087 SET_PROGRESS_TEST FS_EyeDiagram ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 15 
+00:00:58.088 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:58.089 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:58.090 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:58.090 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:58.091 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:58.093 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:58.094 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:58.095 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:58.096 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:58.097 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:58.098 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:58.099 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:58.100 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:58.101 SET_PROGRESS_TOTAL_ANALYZE 23
+00:00:58.125 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.127 SET_TEST_RESULT FS_EyeDiagram , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.128 GET_STATUS_ANALYZE TestName:FS_EyeDiagram ==> FSSQ_Status : Completed,
+00:00:58.156 GET_LIMITS , Edge Rate Match = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_EdgeRateMatch
+00:00:58.165 LOG_UPDATE 09/01/17 00:00:58 : Populating results for Edge Rate Match
+00:00:58.187 SET_TEST_RESULT FS_EdgeRateMatch , Value = 0.560 % , Device:Device ==> Suite:Device Connector 
+00:00:58.188 SET_TEST_RESULT FS_EdgeRateMatch , Details = Edge Rate Match , Device:Device ==> Suite:Device Connector 
+00:00:58.190 SET_TEST_RESULT FS_EdgeRateMatch , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.192 SET_TEST_RESULT FS_EdgeRateMatch , High Limit = 20.000 % , Device:Device ==> Suite:Device Connector 
+00:00:58.193 SET_TEST_RESULT FS_EdgeRateMatch , Low Limit = -20.000 % , Device:Device ==> Suite:Device Connector 
+00:00:58.195 SET_TEST_RESULT FS_EdgeRateMatch , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.196 SET_TEST_RESULT FS_EdgeRateMatch , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.197 SET_TEST_RESULT FS_EdgeRateMatch , Pass/Fail = Informative , Device:Device ==> Suite:Device Connector 
+00:00:58.199 SET_TEST_RESULT FS_EdgeRateMatch , Margin = 20.560 % & 19.440 % , Device:Device ==> Suite:Device Connector 
+00:00:58.200 SET_TEST_RESULT FS_EdgeRateMatch , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.202 SET_TEST_RESULT FS_EdgeRateMatch , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.214 SET_TEST_RESULTS FS_EdgeRateMatch , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:58.214 ==>SET_TEST_RESULTS FS_EdgeRateMatch , FINAL_STATUS = Pass 
+00:00:58.243 SET_PROGRESS_TEST FS_EdgeRateMatch ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 23 
+00:00:58.244 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:58.245 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:58.246 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:58.247 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:58.249 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:58.250 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:58.251 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:58.252 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:58.253 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:58.254 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:58.255 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:58.256 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:58.256 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:58.257 SET_PROGRESS_TOTAL_ANALYZE 30
+00:00:58.278 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.279 SET_TEST_RESULT FS_EdgeRateMatch , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.280 GET_STATUS_ANALYZE TestName:FS_EdgeRateMatch ==> FSSQ_Status : Completed,
+00:00:58.315 GET_LIMITS , Paired KJ = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.321 GET_LIMITS , Paired KJ(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.328 LOG_UPDATE 09/01/17 00:00:58 : Populating results for Max KJ Jitter
+00:00:58.354 SET_TEST_RESULT FS_PairedKJJitter , Value = 248782.095 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.355 SET_TEST_RESULT FS_PairedKJJitter , Details = Max KJ Jitter , Device:Device ==> Suite:Device Connector 
+00:00:58.356 SET_TEST_RESULT FS_PairedKJJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.358 SET_TEST_RESULT FS_PairedKJJitter , High Limit = 20000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.359 SET_TEST_RESULT FS_PairedKJJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.361 SET_TEST_RESULT FS_PairedKJJitter , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:58.362 SET_TEST_RESULT FS_PairedKJJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.363 SET_TEST_RESULT FS_PairedKJJitter , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:00:58.364 SET_TEST_RESULT FS_PairedKJJitter , Margin = -228782.095 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.365 SET_TEST_RESULT FS_PairedKJJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.366 SET_TEST_RESULT FS_PairedKJJitter , Comments = Failed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:58.379 SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:00:58.380 ==>SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail 
+00:00:58.409 SET_PROGRESS_TEST FS_PairedKJJitter ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 30 
+00:00:58.410 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:58.411 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:58.412 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:58.413 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:58.414 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:58.415 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:58.416 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:58.416 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:58.417 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:58.418 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:58.419 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:58.420 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:58.421 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:58.422 SET_PROGRESS_TOTAL_ANALYZE 38
+00:00:58.442 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.443 SET_TEST_RESULT FS_PairedKJJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.444 GET_STATUS_ANALYZE TestName:FS_PairedKJJitter ==> FSSQ_Status : Completed,
+00:00:58.471 GET_LIMITS , Paired KJ = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.475 GET_LIMITS , Paired KJ(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.482 LOG_UPDATE 09/01/17 00:00:58 : Populating results for Min KJ Jitter
+00:00:58.505 SET_TEST_RESULT FS_PairedKJJitter , Value = 8883.734 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.505 SET_TEST_RESULT FS_PairedKJJitter , Details = Min KJ Jitter , Device:Device ==> Suite:Device Connector 
+00:00:58.506 SET_TEST_RESULT FS_PairedKJJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.508 SET_TEST_RESULT FS_PairedKJJitter , High Limit = 20000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.509 SET_TEST_RESULT FS_PairedKJJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.510 SET_TEST_RESULT FS_PairedKJJitter , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.511 SET_TEST_RESULT FS_PairedKJJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.512 SET_TEST_RESULT FS_PairedKJJitter , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.513 SET_TEST_RESULT FS_PairedKJJitter , Margin = 11116.266 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.514 SET_TEST_RESULT FS_PairedKJJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.515 SET_TEST_RESULT FS_PairedKJJitter , Comments = Passed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:58.526 SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:00:58.527 ==>SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail 
+00:00:58.557 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.559 SET_TEST_RESULT FS_PairedKJJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.560 GET_STATUS_ANALYZE TestName:FS_PairedKJJitter ==> FSSQ_Status : Completed,
+00:00:58.585 GET_LIMITS , Paired KJ = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.588 GET_LIMITS , Paired KJ(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedKJJitter
+00:00:58.595 LOG_UPDATE 09/01/17 00:00:58 : Populating results for RMS KJ Jitter
+00:00:58.617 SET_TEST_RESULT FS_PairedKJJitter , Value = 164111.418 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.618 SET_TEST_RESULT FS_PairedKJJitter , Details = RMS KJ Jitter , Device:Device ==> Suite:Device Connector 
+00:00:58.619 SET_TEST_RESULT FS_PairedKJJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.622 SET_TEST_RESULT FS_PairedKJJitter , High Limit = 20000.000 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.623 SET_TEST_RESULT FS_PairedKJJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.624 SET_TEST_RESULT FS_PairedKJJitter , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:58.625 SET_TEST_RESULT FS_PairedKJJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.626 SET_TEST_RESULT FS_PairedKJJitter , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:00:58.627 SET_TEST_RESULT FS_PairedKJJitter , Margin = -144111.418 ps , Device:Device ==> Suite:Device Connector 
+00:00:58.628 SET_TEST_RESULT FS_PairedKJJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.629 SET_TEST_RESULT FS_PairedKJJitter , Comments = Failed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:00:58.639 SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:00:58.640 ==>SET_TEST_RESULTS FS_PairedKJJitter , FINAL_STATUS = Fail 
+00:00:58.671 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.671 SET_TEST_RESULT FS_PairedKJJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.672 GET_STATUS_ANALYZE TestName:FS_PairedKJJitter ==> FSSQ_Status : Completed,
+00:00:58.698 GET_LIMITS , Rise Time = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_RiseTime
+00:00:58.703 GET_LIMITS , Rise Time(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_RiseTime
+00:00:58.705 GET_LIMITS , Rise Time = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_RiseTime
+00:00:58.713 LOG_UPDATE 09/01/17 00:00:58 : Populating results for Rise Time
+00:00:58.736 SET_TEST_RESULT FS_RiseTime , Value = 34.160 ns , Device:Device ==> Suite:Device Connector 
+00:00:58.738 SET_TEST_RESULT FS_RiseTime , Details = Rise Time , Device:Device ==> Suite:Device Connector 
+00:00:58.739 SET_TEST_RESULT FS_RiseTime , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.741 SET_TEST_RESULT FS_RiseTime , High Limit = 20.000 ns , Device:Device ==> Suite:Device Connector 
+00:00:58.742 SET_TEST_RESULT FS_RiseTime , Low Limit = 4.000 ns , Device:Device ==> Suite:Device Connector 
+00:00:58.743 SET_TEST_RESULT FS_RiseTime , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:58.745 SET_TEST_RESULT FS_RiseTime , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.746 SET_TEST_RESULT FS_RiseTime , Pass/Fail = Informative , Device:Device ==> Suite:Device Connector 
+00:00:58.746 SET_TEST_RESULT FS_RiseTime , Margin = 30.160 ns & -14.160 ns , Device:Device ==> Suite:Device Connector 
+00:00:58.747 SET_TEST_RESULT FS_RiseTime , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.749 SET_TEST_RESULT FS_RiseTime , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.759 SET_TEST_RESULTS FS_RiseTime , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:58.761 ==>SET_TEST_RESULTS FS_RiseTime , FINAL_STATUS = Pass 
+00:00:58.792 SET_PROGRESS_TEST FS_RiseTime ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 38 
+00:00:58.793 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:58.794 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:58.795 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:58.796 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:58.796 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:58.797 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:58.798 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:58.798 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:58.799 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:58.800 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:58.801 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:58.802 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:58.803 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:58.804 SET_PROGRESS_TOTAL_ANALYZE 46
+00:00:58.827 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.828 SET_TEST_RESULT FS_RiseTime , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.829 GET_STATUS_ANALYZE TestName:FS_RiseTime ==> FSSQ_Status : Completed,
+00:00:58.855 GET_LIMITS , Edge Monotonicity = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_EdgeMonotonicity
+00:00:58.861 LOG_UPDATE 09/01/17 00:00:58 : Populating results for Edge Monotonicity
+00:00:58.886 SET_TEST_RESULT FS_EdgeMonotonicity , Value = 280.000 mV , Device:Device ==> Suite:Device Connector 
+00:00:58.887 SET_TEST_RESULT FS_EdgeMonotonicity , Details = Edge Monotonicity , Device:Device ==> Suite:Device Connector 
+00:00:58.889 SET_TEST_RESULT FS_EdgeMonotonicity , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:58.891 SET_TEST_RESULT FS_EdgeMonotonicity , High Limit = 500.000 mV , Device:Device ==> Suite:Device Connector 
+00:00:58.892 SET_TEST_RESULT FS_EdgeMonotonicity , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.894 SET_TEST_RESULT FS_EdgeMonotonicity , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.895 SET_TEST_RESULT FS_EdgeMonotonicity , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.896 SET_TEST_RESULT FS_EdgeMonotonicity , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:58.897 SET_TEST_RESULT FS_EdgeMonotonicity , Margin = 220.000 mV , Device:Device ==> Suite:Device Connector 
+00:00:58.898 SET_TEST_RESULT FS_EdgeMonotonicity , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:58.900 SET_TEST_RESULT FS_EdgeMonotonicity , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:58.912 SET_TEST_RESULTS FS_EdgeMonotonicity , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:58.913 ==>SET_TEST_RESULTS FS_EdgeMonotonicity , FINAL_STATUS = Pass 
+00:00:58.958 SET_PROGRESS_TEST FS_EdgeMonotonicity ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 46 
+00:00:58.960 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:58.961 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:58.962 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:58.962 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:58.963 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:58.964 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:58.965 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:58.966 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:58.967 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:58.968 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:58.969 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:58.971 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:58.972 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:58.972 SET_PROGRESS_TOTAL_ANALYZE 53
+00:00:58.994 SET_RUNTIME_STAMP 20170901_000034
+00:00:58.995 SET_TEST_RESULT FS_EdgeMonotonicity , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:58.997 GET_STATUS_ANALYZE TestName:FS_EdgeMonotonicity ==> FSSQ_Status : Completed,
+00:00:59.022 GET_LIMITS , Rising Edge Rate = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_RisingEdgeRate
+00:00:59.027 GET_LIMITS , Rising Edge Rate(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_RisingEdgeRate
+00:00:59.029 GET_LIMITS , Rising Edge Rate = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_RisingEdgeRate
+00:00:59.035 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Rising Edge Rate
+00:00:59.056 SET_TEST_RESULT FS_RisingEdgeRate , Value = 77.280 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.057 SET_TEST_RESULT FS_RisingEdgeRate , Details = Rising Edge Rate , Device:Device ==> Suite:Device Connector 
+00:00:59.058 SET_TEST_RESULT FS_RisingEdgeRate , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.061 SET_TEST_RESULT FS_RisingEdgeRate , High Limit = 660.000 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.063 SET_TEST_RESULT FS_RisingEdgeRate , Low Limit = 132.000 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.064 SET_TEST_RESULT FS_RisingEdgeRate , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.065 SET_TEST_RESULT FS_RisingEdgeRate , LowLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:59.066 SET_TEST_RESULT FS_RisingEdgeRate , Pass/Fail = Informative , Device:Device ==> Suite:Device Connector 
+00:00:59.067 SET_TEST_RESULT FS_RisingEdgeRate , Margin = -54.720 V/us & 582.720 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.068 SET_TEST_RESULT FS_RisingEdgeRate , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.069 SET_TEST_RESULT FS_RisingEdgeRate , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:59.080 SET_TEST_RESULTS FS_RisingEdgeRate , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:59.081 ==>SET_TEST_RESULTS FS_RisingEdgeRate , FINAL_STATUS = Pass 
+00:00:59.196 SET_PROGRESS_TEST FS_RisingEdgeRate ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 53 
+00:00:59.197 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:59.198 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:59.199 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:59.200 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:59.201 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:59.202 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:59.202 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:59.203 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:59.204 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:59.205 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:59.206 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:59.207 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:59.208 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:59.209 SET_PROGRESS_TOTAL_ANALYZE 61
+00:00:59.229 SET_RUNTIME_STAMP 20170901_000034
+00:00:59.230 SET_TEST_RESULT FS_RisingEdgeRate , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:59.231 GET_STATUS_ANALYZE TestName:FS_RisingEdgeRate ==> FSSQ_Status : Completed,
+00:00:59.256 GET_LIMITS , Fall Time = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_FallTime
+00:00:59.261 GET_LIMITS , Fall Time(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_FallTime
+00:00:59.263 GET_LIMITS , Fall Time = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_FallTime
+00:00:59.269 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Fall Time
+00:00:59.292 SET_TEST_RESULT FS_FallTime , Value = 33.970 ns , Device:Device ==> Suite:Device Connector 
+00:00:59.293 SET_TEST_RESULT FS_FallTime , Details = Fall Time , Device:Device ==> Suite:Device Connector 
+00:00:59.294 SET_TEST_RESULT FS_FallTime , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.296 SET_TEST_RESULT FS_FallTime , High Limit = 20.000 ns , Device:Device ==> Suite:Device Connector 
+00:00:59.297 SET_TEST_RESULT FS_FallTime , Low Limit = 4.000 ns , Device:Device ==> Suite:Device Connector 
+00:00:59.298 SET_TEST_RESULT FS_FallTime , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:59.299 SET_TEST_RESULT FS_FallTime , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.300 SET_TEST_RESULT FS_FallTime , Pass/Fail = Informative , Device:Device ==> Suite:Device Connector 
+00:00:59.301 SET_TEST_RESULT FS_FallTime , Margin = 29.970 ns & -13.970 ns , Device:Device ==> Suite:Device Connector 
+00:00:59.302 SET_TEST_RESULT FS_FallTime , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.303 SET_TEST_RESULT FS_FallTime , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:59.321 SET_TEST_RESULTS FS_FallTime , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:59.322 ==>SET_TEST_RESULTS FS_FallTime , FINAL_STATUS = Pass 
+00:00:59.375 SET_PROGRESS_TEST FS_FallTime ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 61 
+00:00:59.376 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:59.377 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:59.378 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:59.378 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:59.379 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:59.380 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:59.381 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:59.382 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:59.383 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:59.384 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:59.384 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:59.385 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:59.386 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:59.387 SET_PROGRESS_TOTAL_ANALYZE 69
+00:00:59.408 SET_RUNTIME_STAMP 20170901_000034
+00:00:59.410 SET_TEST_RESULT FS_FallTime , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:59.411 GET_STATUS_ANALYZE TestName:FS_FallTime ==> FSSQ_Status : Completed,
+00:00:59.436 GET_LIMITS , Falling Edge Rate = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_FallingEdgeRate
+00:00:59.441 GET_LIMITS , Falling Edge Rate(Waiver) = Error when retriving value , Device:Device ==> Suite:Device Connector ==> Test:FS_FallingEdgeRate
+00:00:59.447 GET_LIMITS , Falling Edge Rate = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_FallingEdgeRate
+00:00:59.453 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Falling Edge Rate
+00:00:59.475 SET_TEST_RESULT FS_FallingEdgeRate , Value = 77.720 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.476 SET_TEST_RESULT FS_FallingEdgeRate , Details = Falling Edge Rate , Device:Device ==> Suite:Device Connector 
+00:00:59.477 SET_TEST_RESULT FS_FallingEdgeRate , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.479 SET_TEST_RESULT FS_FallingEdgeRate , High Limit = 660.000 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.480 SET_TEST_RESULT FS_FallingEdgeRate , Low Limit = 132.000 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.481 SET_TEST_RESULT FS_FallingEdgeRate , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.483 SET_TEST_RESULT FS_FallingEdgeRate , LowLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:00:59.484 SET_TEST_RESULT FS_FallingEdgeRate , Pass/Fail = Informative , Device:Device ==> Suite:Device Connector 
+00:00:59.485 SET_TEST_RESULT FS_FallingEdgeRate , Margin = -54.280 V/us & 582.280 V/us , Device:Device ==> Suite:Device Connector 
+00:00:59.486 SET_TEST_RESULT FS_FallingEdgeRate , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.487 SET_TEST_RESULT FS_FallingEdgeRate , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:59.497 SET_TEST_RESULTS FS_FallingEdgeRate , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:59.498 ==>SET_TEST_RESULTS FS_FallingEdgeRate , FINAL_STATUS = Pass 
+00:00:59.550 SET_PROGRESS_TEST FS_FallingEdgeRate ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 69 
+00:00:59.551 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:59.552 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:59.553 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:59.554 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:59.555 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:59.556 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:59.557 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:59.558 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:59.559 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:59.559 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:59.560 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:59.561 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:59.562 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:59.563 SET_PROGRESS_TOTAL_ANALYZE 76
+00:00:59.585 SET_RUNTIME_STAMP 20170901_000034
+00:00:59.586 SET_TEST_RESULT FS_FallingEdgeRate , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:59.586 GET_STATUS_ANALYZE TestName:FS_FallingEdgeRate ==> FSSQ_Status : Completed,
+00:00:59.613 GET_LIMITS , Cross Over Voltage = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_CrossOver
+00:00:59.657 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Max Crossover Voltage
+00:00:59.678 SET_TEST_RESULT FS_CrossOver , Value = 1.850 V , Device:Device ==> Suite:Device Connector 
+00:00:59.680 SET_TEST_RESULT FS_CrossOver , Details = Max Crossover Voltage , Device:Device ==> Suite:Device Connector 
+00:00:59.681 SET_TEST_RESULT FS_CrossOver , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.683 SET_TEST_RESULT FS_CrossOver , High Limit = 2.000 V , Device:Device ==> Suite:Device Connector 
+00:00:59.684 SET_TEST_RESULT FS_CrossOver , Low Limit = 1.300 V , Device:Device ==> Suite:Device Connector 
+00:00:59.685 SET_TEST_RESULT FS_CrossOver , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.686 SET_TEST_RESULT FS_CrossOver , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.687 SET_TEST_RESULT FS_CrossOver , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.688 SET_TEST_RESULT FS_CrossOver , Margin = 0.550 V & 0.150 V , Device:Device ==> Suite:Device Connector 
+00:00:59.689 SET_TEST_RESULT FS_CrossOver , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.690 SET_TEST_RESULT FS_CrossOver , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:59.700 SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:59.701 ==>SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass 
+00:00:59.755 SET_PROGRESS_TEST FS_CrossOver ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 76 
+00:00:59.756 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:00:59.757 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:00:59.758 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:00:59.759 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:00:59.760 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:00:59.761 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:00:59.762 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:00:59.763 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:00:59.763 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:00:59.764 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:00:59.765 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:00:59.766 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:00:59.767 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:00:59.768 SET_PROGRESS_TOTAL_ANALYZE 84
+00:00:59.791 SET_RUNTIME_STAMP 20170901_000034
+00:00:59.792 SET_TEST_RESULT FS_CrossOver , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:59.793 GET_STATUS_ANALYZE TestName:FS_CrossOver ==> FSSQ_Status : Completed,
+00:00:59.817 GET_LIMITS , Cross Over Voltage = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_CrossOver
+00:00:59.821 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Min Crossover Voltage
+00:00:59.843 SET_TEST_RESULT FS_CrossOver , Value = 1.640 V , Device:Device ==> Suite:Device Connector 
+00:00:59.844 SET_TEST_RESULT FS_CrossOver , Details = Min Crossover Voltage , Device:Device ==> Suite:Device Connector 
+00:00:59.845 SET_TEST_RESULT FS_CrossOver , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.847 SET_TEST_RESULT FS_CrossOver , High Limit = 2.000 V , Device:Device ==> Suite:Device Connector 
+00:00:59.848 SET_TEST_RESULT FS_CrossOver , Low Limit = 1.300 V , Device:Device ==> Suite:Device Connector 
+00:00:59.849 SET_TEST_RESULT FS_CrossOver , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.850 SET_TEST_RESULT FS_CrossOver , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.851 SET_TEST_RESULT FS_CrossOver , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.852 SET_TEST_RESULT FS_CrossOver , Margin = 0.340 V & 0.360 V , Device:Device ==> Suite:Device Connector 
+00:00:59.853 SET_TEST_RESULT FS_CrossOver , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.855 SET_TEST_RESULT FS_CrossOver , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:00:59.871 SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:00:59.872 ==>SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass 
+00:00:59.926 SET_RUNTIME_STAMP 20170901_000034
+00:00:59.928 SET_TEST_RESULT FS_CrossOver , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:00:59.929 GET_STATUS_ANALYZE TestName:FS_CrossOver ==> FSSQ_Status : Completed,
+00:00:59.953 GET_LIMITS , Cross Over Voltage = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_CrossOver
+00:00:59.957 LOG_UPDATE 09/01/17 00:00:59 : Populating results for Mean Crossover Voltage
+00:00:59.981 SET_TEST_RESULT FS_CrossOver , Value = 1.710 V , Device:Device ==> Suite:Device Connector 
+00:00:59.983 SET_TEST_RESULT FS_CrossOver , Details = Mean Crossover Voltage , Device:Device ==> Suite:Device Connector 
+00:00:59.984 SET_TEST_RESULT FS_CrossOver , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:00:59.986 SET_TEST_RESULT FS_CrossOver , High Limit = 2.000 V , Device:Device ==> Suite:Device Connector 
+00:00:59.987 SET_TEST_RESULT FS_CrossOver , Low Limit = 1.300 V , Device:Device ==> Suite:Device Connector 
+00:00:59.988 SET_TEST_RESULT FS_CrossOver , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.989 SET_TEST_RESULT FS_CrossOver , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.990 SET_TEST_RESULT FS_CrossOver , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:00:59.991 SET_TEST_RESULT FS_CrossOver , Margin = 0.410 V & 0.290 V , Device:Device ==> Suite:Device Connector 
+00:00:59.992 SET_TEST_RESULT FS_CrossOver , Units = V , Device:Device ==> Suite:Device Connector 
+00:00:59.993 SET_TEST_RESULT FS_CrossOver , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.002 SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:01:00.003 ==>SET_TEST_RESULTS FS_CrossOver , FINAL_STATUS = Pass 
+00:01:00.062 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.063 SET_TEST_RESULT FS_CrossOver , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:01:00.064 GET_STATUS_ANALYZE TestName:FS_CrossOver ==> FSSQ_Status : Completed,
+00:01:00.088 GET_LIMITS , Paired JK = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedJKJitter
+00:01:00.098 GET_LIMITS , Paired JK(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedJKJitter
+00:01:00.102 LOG_UPDATE 09/01/17 00:01:00 : Populating results for Max JK Jitter
+00:01:00.125 SET_TEST_RESULT FS_PairedJKJitter , Value = 402130.666 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.126 SET_TEST_RESULT FS_PairedJKJitter , Details = Max JK Jitter , Device:Device ==> Suite:Device Connector 
+00:01:00.126 SET_TEST_RESULT FS_PairedJKJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:01:00.129 SET_TEST_RESULT FS_PairedJKJitter , High Limit = 20000.000 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.130 SET_TEST_RESULT FS_PairedJKJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.131 SET_TEST_RESULT FS_PairedJKJitter , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:01:00.132 SET_TEST_RESULT FS_PairedJKJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.133 SET_TEST_RESULT FS_PairedJKJitter , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:01:00.134 SET_TEST_RESULT FS_PairedJKJitter , Margin = -382130.666 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.135 SET_TEST_RESULT FS_PairedJKJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:01:00.136 SET_TEST_RESULT FS_PairedJKJitter , Comments = Failed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:01:00.145 SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:01:00.147 ==>SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail 
+00:01:00.205 SET_PROGRESS_TEST FS_PairedJKJitter ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 84 
+00:01:00.206 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:01:00.207 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:01:00.207 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:01:00.208 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:01:00.209 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:01:00.209 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:01:00.210 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:01:00.211 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:01:00.212 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:01:00.213 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:01:00.214 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:01:00.215 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:01:00.216 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:01:00.216 SET_PROGRESS_TOTAL_ANALYZE 92
+00:01:00.239 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.241 SET_TEST_RESULT FS_PairedJKJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:01:00.242 GET_STATUS_ANALYZE TestName:FS_PairedJKJitter ==> FSSQ_Status : Completed,
+00:01:00.266 GET_LIMITS , Paired JK = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedJKJitter
+00:01:00.275 LOG_UPDATE 09/01/17 00:01:00 : Populating results for Min JK Jitter
+00:01:00.297 SET_TEST_RESULT FS_PairedJKJitter , Value = -83942.933 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.298 SET_TEST_RESULT FS_PairedJKJitter , Details = Min JK Jitter , Device:Device ==> Suite:Device Connector 
+00:01:00.299 SET_TEST_RESULT FS_PairedJKJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:01:00.301 SET_TEST_RESULT FS_PairedJKJitter , High Limit = 1000.000 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.302 SET_TEST_RESULT FS_PairedJKJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.304 SET_TEST_RESULT FS_PairedJKJitter , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:01:00.305 SET_TEST_RESULT FS_PairedJKJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.306 SET_TEST_RESULT FS_PairedJKJitter , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:01:00.307 SET_TEST_RESULT FS_PairedJKJitter , Margin = 84942.933 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.307 SET_TEST_RESULT FS_PairedJKJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:01:00.309 SET_TEST_RESULT FS_PairedJKJitter , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.318 SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:01:00.319 ==>SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail 
+00:01:00.377 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.379 SET_TEST_RESULT FS_PairedJKJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:01:00.380 GET_STATUS_ANALYZE TestName:FS_PairedJKJitter ==> FSSQ_Status : Completed,
+00:01:00.405 GET_LIMITS , Paired JK = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedJKJitter
+00:01:00.408 GET_LIMITS , Paired JK(Waiver) = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_PairedJKJitter
+00:01:00.412 LOG_UPDATE 09/01/17 00:01:00 : Populating results for RMS JK Jitter
+00:01:00.433 SET_TEST_RESULT FS_PairedJKJitter , Value = 233654.058 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.435 SET_TEST_RESULT FS_PairedJKJitter , Details = RMS JK Jitter , Device:Device ==> Suite:Device Connector 
+00:01:00.436 SET_TEST_RESULT FS_PairedJKJitter , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:01:00.438 SET_TEST_RESULT FS_PairedJKJitter , High Limit = 20000.000 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.439 SET_TEST_RESULT FS_PairedJKJitter , Low Limit = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.440 SET_TEST_RESULT FS_PairedJKJitter , HighLimitResult = Fail , Device:Device ==> Suite:Device Connector 
+00:01:00.441 SET_TEST_RESULT FS_PairedJKJitter , LowLimitResult = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.442 SET_TEST_RESULT FS_PairedJKJitter , Pass/Fail = Fail , Device:Device ==> Suite:Device Connector 
+00:01:00.443 SET_TEST_RESULT FS_PairedJKJitter , Margin = -213654.058 ps , Device:Device ==> Suite:Device Connector 
+00:01:00.444 SET_TEST_RESULT FS_PairedJKJitter , Units = V , Device:Device ==> Suite:Device Connector 
+00:01:00.445 SET_TEST_RESULT FS_PairedJKJitter , Comments = Failed on waiver limits , Device:Device ==> Suite:Device Connector 
+00:01:00.455 SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail ,Device:Device ==> Suite:Device Connector
+00:01:00.456 ==>SET_TEST_RESULTS FS_PairedJKJitter , FINAL_STATUS = Fail 
+00:01:00.517 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.518 SET_TEST_RESULT FS_PairedJKJitter , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:01:00.520 GET_STATUS_ANALYZE TestName:FS_PairedJKJitter ==> FSSQ_Status : Completed,
+00:01:00.543 GET_LIMITS , EOP Width = TekExpress.Limits , Device:Device ==> Suite:Device Connector ==> Test:FS_EOPWidth
+00:01:00.547 LOG_UPDATE 09/01/17 00:01:00 : Populating results for EOP Width
+00:01:00.571 SET_TEST_RESULT FS_EOPWidth , Value = 166.400 ns , Device:Device ==> Suite:Device Connector 
+00:01:00.572 SET_TEST_RESULT FS_EOPWidth , Details = EOP Width , Device:Device ==> Suite:Device Connector 
+00:01:00.573 SET_TEST_RESULT FS_EOPWidth , Speed = Full Speed , Device:Device ==> Suite:Device Connector 
+00:01:00.575 SET_TEST_RESULT FS_EOPWidth , High Limit = 175.000 ns , Device:Device ==> Suite:Device Connector 
+00:01:00.576 SET_TEST_RESULT FS_EOPWidth , Low Limit = 160.000 ns , Device:Device ==> Suite:Device Connector 
+00:01:00.577 SET_TEST_RESULT FS_EOPWidth , HighLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:01:00.578 SET_TEST_RESULT FS_EOPWidth , LowLimitResult = Pass , Device:Device ==> Suite:Device Connector 
+00:01:00.579 SET_TEST_RESULT FS_EOPWidth , Pass/Fail = Pass , Device:Device ==> Suite:Device Connector 
+00:01:00.580 SET_TEST_RESULT FS_EOPWidth , Margin = 6.400 ns & 8.600 ns , Device:Device ==> Suite:Device Connector 
+00:01:00.581 SET_TEST_RESULT FS_EOPWidth , Units = V , Device:Device ==> Suite:Device Connector 
+00:01:00.583 SET_TEST_RESULT FS_EOPWidth , Comments = N.A , Device:Device ==> Suite:Device Connector 
+00:01:00.591 SET_TEST_RESULTS FS_EOPWidth , FINAL_STATUS = Pass ,Device:Device ==> Suite:Device Connector
+00:01:00.592 ==>SET_TEST_RESULTS FS_EOPWidth , FINAL_STATUS = Pass 
+00:01:00.653 SET_PROGRESS_TEST FS_EOPWidth ,% = 100, Device:Device ==> Suite:Device Connector ==> BEFORE_TOTAL % = 92 
+00:01:00.654 ==>SET_PROGRESS_TEST FS_EyeDiagram , Version:Speed
+00:01:00.655 ==>SET_PROGRESS_TEST FS_EOPWidth , Version:Speed
+00:01:00.656 ==>SET_PROGRESS_TEST FS_SignalRate , Version:Speed
+00:01:00.657 ==>SET_PROGRESS_TEST FS_EdgeMonotonicity , Version:Speed
+00:01:00.658 ==>SET_PROGRESS_TEST FS_CrossOver , Version:Speed
+00:01:00.659 ==>SET_PROGRESS_TEST FS_ConsecutiveJitter , Version:Speed
+00:01:00.660 ==>SET_PROGRESS_TEST FS_PairedJKJitter , Version:Speed
+00:01:00.661 ==>SET_PROGRESS_TEST FS_PairedKJJitter , Version:Speed
+00:01:00.662 ==>SET_PROGRESS_TEST FS_RisingEdgeRate , Version:Speed
+00:01:00.663 ==>SET_PROGRESS_TEST FS_FallingEdgeRate , Version:Speed
+00:01:00.663 ==>SET_PROGRESS_TEST FS_EdgeRateMatch , Version:Speed
+00:01:00.664 ==>SET_PROGRESS_TEST FS_RiseTime , Version:Speed
+00:01:00.665 ==>SET_PROGRESS_TEST FS_FallTime , Version:Speed
+00:01:00.666 SET_PROGRESS_TOTAL_ANALYZE 100
+00:01:00.688 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.690 SET_TEST_RESULT FS_EOPWidth , FSSQ_Status = Completed , Device:Device ==> Suite:Device Connector 
+00:01:00.691 GET_STATUS_ANALYZE TestName:FS_EOPWidth ==> FSSQ_Status : Completed,
+00:01:00.816 SET_EXEC_INFO Over All Test Result = Fail
+00:01:00.831 SET_EXEC_INFO Total Execution Time = 24 Seconds
+00:01:00.832 EXEC_SEQ Sequencer Completed for Device :Device Suite:Device Connector
+00:01:00.901 SET_RUNTIME_STAMP 20170901_000034
+00:01:00.902 WAIT_ACTIVE_MSG_BOX: Enter
+00:01:00.903 WAIT_ACTIVE_MSG_BOX: Exit
